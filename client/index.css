@@ -192,6 +192,9 @@ nav a {
     color: white;
     transition: 0.2s ease-in-out;
     opacity: 1;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 nav a:hover {
@@ -574,7 +577,6 @@ footer {
     gap: 15px;
 }
 
-
 .footer-content img {
     width: 35px;
     cursor: pointer;
@@ -638,8 +640,9 @@ footer > p {
     
     .wrapper-h4 > h4 {
         color: white;
-        font-size: 34px;
+        font-size: 32px;
         font-weight: 200;
+        padding: 0 15px;
     }
     
     .wrapper-h4 > h4 span {
@@ -783,9 +786,10 @@ footer > p {
         gap: 10px;
         z-index: 100;
         position: absolute;
-        top: 10%;
-        left: 48%;
+        top: 5%;
+        left: 46%;
         padding: 0 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     }
 
     .projects-content > img {
@@ -800,7 +804,7 @@ footer > p {
     
     .projects-content-text > h3 {
         color: white;
-        font-size: 20px;
+        font-size: 16px;
         font-family: "Poetsen One", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -808,8 +812,8 @@ footer > p {
     
     .projects-content-text > p {
         color: white;
-        line-height: 1.4;
-        font-size: 16px;
+        line-height: 1.2;
+        font-size: 14px;
         font-family: "Jersey 20", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -835,6 +839,7 @@ footer > p {
         align-items: center;
         width: 100%;
         position: relative;
+        
     }
 
     .projects-content-text-2 {
@@ -843,9 +848,11 @@ footer > p {
         gap: 10px;
         z-index: 100;
         position: absolute;
-        top: 10%;
+        top: 0%;
         left: 5%;
-        padding: 0 180px 0 5px;
+        width: 50%;
+        padding: 0 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     }
     
     .projects-content-2 > img {
@@ -858,10 +865,9 @@ footer > p {
         margin-right: 0;
     }
     
-    
     .projects-content-text-2 > h3 {
         color: white;
-        font-size: 18px;
+        font-size: 16px;
         font-family: "Poetsen One", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -869,11 +875,12 @@ footer > p {
     
     .projects-content-text-2 > p {
         color: white;
-        line-height: 1.4;
-        font-size: 16px;
+        line-height: 1.2;
+        font-size: 14px;
         font-family: "Jersey 20", sans-serif;
         font-weight: 400;
         font-style: normal;
+        padding: 0 20px 0 0;
     }
 
     #contact {
@@ -907,6 +914,20 @@ footer > p {
     }
 
     footer {
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(44, 44, 44);
+        padding: 50px;
+        gap: 20px;
     }
+    
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
 }
