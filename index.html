@@ -153,11 +153,11 @@
         <h2>Contact</h2>
         <p>Have any questions or want to collab on a project? Leave your comment and i'll respond as soon as possible.</p>
 
-        <form action="post">
+        <form id="form" action="post">
             <input type="text" class="name" id="name" placeholder="Name" required>
             <input type="email" class="email" id="email" placeholder="Email" required>
             <textarea id="textarea" class="textarea" placeholder="Message" required></textarea>
-            <button type="submit" class="btn-after">SUBMIT</button>
+            <button type="submit" id="btn-after" class="btn-after">SUBMIT</button>
         </form>
         
         <a href="#wrapper"><img class="up" src="/assets/up-arrow.png" alt="up arrow" loading="lazy"></a>
@@ -172,6 +172,12 @@
     <p>Jacob Eldridge @2024</p>
 </footer>
 
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">emailjs.init('y296eMeKNjNJl0f03')</script>
+      
+<div id="success-message"></div>
 
 </body>
 </html>
