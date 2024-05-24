@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 });
 
 
-/* email */
+/* email json*/
 
 const btn = document.getElementById('btn-after');
 
